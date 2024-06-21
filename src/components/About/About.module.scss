@@ -1,0 +1,121 @@
+.container {
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(to bottom, #000000, #4ca1af);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  width: 100%;
+  max-width: 1800px;
+  margin-bottom: 3rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.aboutMeImage {
+  flex: 1;
+  text-align: left;
+}
+
+.aboutMeImage img {
+  max-width: 130%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.aboutMeText {
+  flex: 1;
+  text-align: left;
+  font-size: 1.5rem;
+  color: #ddd;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+.timelineItem {
+  padding: 20px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.timelineItem:nth-child(odd) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.timelineIcon {
+  background: #4ca1af;
+  color: white;
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.timelineContent {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  max-width: 600px;
+  margin: 0 1rem;
+  text-align: left;
+}
+
+.certificates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.certificate {
+  flex: 1 1 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.certificate img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.certificate h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.certificate p {
+  font-size: 1rem;
+  color: #555;
+}

@@ -1,0 +1,30 @@
+// src/components/Contact/Contact.module.scss
+.contactSection {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contactSection h2 {
+    color: #032339;
+}
+
+.contactSection p {
+    font-size: 16px;
+    color: #555;
+}
+
+.emailButton {
+    background-color: #032339;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #021a26;
+    }
+}
