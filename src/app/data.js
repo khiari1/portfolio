@@ -27,15 +27,7 @@ export const projects = [
     //link: "https://github.com/rishilahoti/portfolio_new",
     color: "#ECF8F6"
   },
-  {
-    title: "That Way!",
-    description: `Projet académique, Développement d'une application multi-plateforme (desktop, web et mobile) axée sur les transports publics en Tunisie, utilisant Java, JavaFX, Symfony et Code Name One.`,
-    description2: `Ce projet, réalisé de janvier à juin 2023 à ESPRIT, permettait aux utilisateurs d'accéder aux horaires, itinéraires et tarifs, de planifier des trajets, et de recevoir des notifications en temps réel.`,
-    description3: `L'application visait à améliorer l'expérience des utilisateurs des transports publics et à encourager leur utilisation.`,
-    src: "thatway.png",
-    //link: "https://github.com/rishilahoti/portfolio_new",
-    color: "#ECF8F6"
-  },
+
   {
     title: "Contact",
     description: `Je suis disponible pour discuter de projets, collaborations ou toute autre opportunité. N'hésitez pas à me contacter via les moyens suivants :`,
