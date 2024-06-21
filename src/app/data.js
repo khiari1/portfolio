@@ -1,39 +1,39 @@
 export const projects = [
   {
     title: "Insight Miners",
-    description: `Projet académique en collaboration avec Resolvi, visant à exploiter l'analyse des données pour améliorer les décisions stratégiques en ressources humaines.`,
-    description2: `Développement d'un entrepôt de données robuste pour l'analyse RH, intégration et nettoyage des données, et utilisation de techniques avancées d'exploration de données.`,
-    description3: `Création d'une application web dynamique avec des tableaux de bord interactifs pour visualiser les informations clés dérivées des initiatives de Business Intelligence.`,
-    src: "data_analysis.png",  // Nom de la photo générique
-   // link: "https://www.linkedin.com/in/votreprofil",
+    description: `Academic project in collaboration with Resolvi, aimed at leveraging data analysis to enhance strategic HR decisions.`,
+    description2: `Development of a robust data warehouse for HR analysis, data integration and cleansing, and utilization of advanced data mining techniques.`,
+    description3: `Creation of a dynamic web application with interactive dashboards to visualize key insights derived from Business Intelligence initiatives.`,
+    src: "data_analysis.png",  // Generic photo name
+    // link: "https://www.linkedin.com/in/yourprofile",
     color: "#ECF8F6"
   },
   
   {
-    title: "Migration ERP vers Web",
-    description: `Stage d’immersion chez TSI à Tunis, Tunisie, pour la migration d'un ERP desktop vers une version web moderne.`,
-    description2: `Utilisation de Microsoft SQL Server, Docker, et développement backend avec .NET 7. Conception des interfaces utilisateur avec Angular.`,
-    description3: `Implémentation de l'architecture CQRS et MediatoR pour une gestion optimisée. Automatisation du déploiement continu via Azure DevOps.`,
-    src: "software_development.png",  // Nom de la photo générique
-    //link: "https://www.linkedin.com/in/votreprofil",
+    title: "ERP Migration to Web",
+    description: `Immersion internship at TSI in Tunis, Tunisia, for migrating a desktop ERP to a modern web version.`,
+    description2: `Using Microsoft SQL Server, Docker, and backend development with .NET 7. Designing user interfaces with Angular.`,
+    description3: `Implementation of CQRS and MediatoR architecture for optimized management. Automating continuous deployment via Azure DevOps.`,
+    src: "software_development.png",  // Generic photo name
+    // link: "https://www.linkedin.com/in/yourprofile",
     color: "#ECF8F6"
   },
   {
     title: "That Way!",
-    description: `Projet académique, Développement d'une application multi-plateforme (desktop, web et mobile) axée sur les transports publics en Tunisie, utilisant Java, JavaFX, Symfony et Code Name One.`,
-    description2: `Ce projet, réalisé de janvier à juin 2023 à ESPRIT, permettait aux utilisateurs d'accéder aux horaires, itinéraires et tarifs, de planifier des trajets, et de recevoir des notifications en temps réel.`,
-    description3: `L'application visait à améliorer l'expérience des utilisateurs des transports publics et à encourager leur utilisation.`,
+    description: `Academic project, development of a multi-platform application (desktop, web, and mobile) focused on public transportation in Tunisia, using Java, JavaFX, Symfony, and Code Name One.`,
+    description2: `This project, carried out from January to June 2023 at ESPRIT, allowed users to access schedules, routes, and fares, plan trips, and receive real-time notifications.`,
+    description3: `The application aimed to improve the experience of public transport users and encourage its usage.`,
     src: "thatway.png",
-    //link: "https://github.com/rishilahoti/portfolio_new",
+    // link: "https://github.com/rishilahoti/portfolio_new",
     color: "#ECF8F6"
   },
 
   {
     title: "Contact",
-    description: `Je suis disponible pour discuter de projets, collaborations ou toute autre opportunité. N'hésitez pas à me contacter via les moyens suivants :`,
+    description: `I am available to discuss projects, collaborations, or any other opportunities. Feel free to contact me via the following means:`,
     description2: ``,
     src: "aymen4.png",
-   // link: "https://github.com/rishilahoti/React-Movie-App",
+    // link: "https://github.com/rishilahoti/React-Movie-App",
     color: "#18534F"
   }
 ]

@@ -13,27 +13,27 @@ const About = () => {
                     </div>
                     <div className={styles.aboutMeText}>
                         <p className={styles.description}>
-                            Salut 👋 , je suis Khiari Aymen, j'ai 23 ans.
+                            Hi 👋 , I am Khiari Aymen, I am 23 years old.
                         </p>
                         <p className={styles.description}>
-                            Je suis un ingénieur en quatrième année spécialisé en Business Intelligence 📊, passionné par le développement logiciel en .NET 🌐 et Angular ⚛️. J'ai travaillé sur des projets Full Stack 💻 et en BI 📈, créant des solutions de la collecte de données à la mise en œuvre d'applications web. Mon parcours académique et mes stages m'ont permis de développer une expertise technique 🛠️ et analytique 📉 que je suis impatient d'appliquer.
+                            I am a fourth-year engineer specializing in Business Intelligence 📊, passionate about .NET software development 🌐 and Angular ⚛️. I have worked on Full Stack 💻 and BI 📈 projects, creating solutions from data collection to web application implementation. My academic journey and internships have enabled me to develop technical 🛠️ and analytical 📉 expertise that I am eager to apply.
                         </p>
                     </div>
                 </div>
             </div>
 
             <div className={styles.section}>
-                <h1 className={styles.heading}>Academic background</h1>
+                <h1 className={styles.heading}>Academic Background</h1>
                 <div className={styles.timeline}>
                     <div className={styles.timelineItem}>
                         <div className={styles.timelineIcon}>
                             <FaGraduationCap />
                         </div>
                         <div className={styles.timelineContent}>
-                            <h3>Diplôme d’ingénieur en Informatique </h3>
+                            <h3>Engineering Degree in Computer Science</h3>
                             <p>ESPRIT (Ecole Supérieure Privée d’ingénierie et de Technologie)</p>
-                            <span>Septembre 2022 - Juillet 2025, Tunis, Tunisie</span>
-                            <p>Spécialité analyse et visualisation de données et systèmes d’information.</p>
+                            <span>September 2022 - July 2025, Tunis, Tunisia</span>
+                            <p>Specialized in data analysis and visualization and information systems.</p>
                         </div>
                     </div>
                     <div className={styles.timelineItem}>
@@ -41,10 +41,10 @@ const About = () => {
                             <FaSchool />
                         </div>
                         <div className={styles.timelineContent}>
-                            <h3>Licence en Electronique, Electrotechnique et Automatique</h3>
-                            <p>FST (Faculté des Sciences de Tunis)</p>
-                            <span>Septembre 2019 - Juillet 2022, Tunis, Tunisie</span>
-                            <p>Informatique industrielle et système embarqué.</p>
+                            <h3>Bachelor's Degree in Electronics, Electrotechnics, and Automation</h3>
+                            <p>FST (Faculty of Sciences of Tunis)</p>
+                            <span>September 2019 - July 2022, Tunis, Tunisia</span>
+                            <p>Industrial computing and embedded systems.</p>
                         </div>
                     </div>
                     <div className={styles.timelineItem}>
@@ -52,32 +52,32 @@ const About = () => {
                             <FaProjectDiagram />
                         </div>
                         <div className={styles.timelineContent}>
-                            <h3>Baccalauréat en Sciences Technique</h3>
+                            <h3>Baccalaureate in Technical Sciences</h3>
                             <p>Lycée Et Chebbi</p>
-                            <span>Septembre 2018 - Juillet 2019, Tunis, Tunisie</span>
+                            <span>September 2018 - July 2019, Tunis, Tunisia</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div className={styles.section}>
-                <h1 className={styles.heading}>Certificats</h1>
+                <h1 className={styles.heading}>Certificates</h1>
                 <div className={styles.certificates}>
                     <div className={styles.certificate}>
                         <img src="/images/1.png" alt="Service-Oriented Architecture Certificate" />
                         <h3>Service-Oriented Architecture</h3>
-                        <p>Issued by University of Alberta in November 2023. Certificate ID: 7WSEU8837BTJ. Description: Services web, Representational State Transfer (REST), Architecture orientée services (SOA), Microservices.</p>
+                        <p>Issued by University of Alberta in November 2023. Certificate ID: 7WSEU8837BTJ. Description: Web services, Representational State Transfer (REST), Service-Oriented Architecture (SOA), Microservices.</p>
                     </div>
 
                     <div className={styles.certificate}>
-                        <img src="/images/2.png" alt="L'essentiel du HTML5 Certificate" />
-                        <h3>L'essentiel du HTML5</h3>
+                        <img src="/images/2.png" alt="HTML5 Essentials Certificate" />
+                        <h3>HTML5 Essentials</h3>
                         <p>Issued by LinkedIn in July 2022. Certificate ID: AVgTXo9FKzKurwzyuuV01J6IBHk-  Description: Fundamental concepts of HTML5.</p>
                     </div>
 
                     <div className={styles.certificate}>
-                        <img src="/images/3.png" alt="Les fondements de la programmation Certificate" />
-                        <h3>Les fondements de la programmation</h3>
+                        <img src="/images/3.png" alt="Programming Foundations Certificate" />
+                        <h3>Programming Foundations</h3>
                         <p>Issued by LinkedIn in June 2022. Certificate ID: AYmI8k5WQ8FdPNZC8qBCndWO3LM. Description: Basics of programming principles.</p>
                     </div>
 
