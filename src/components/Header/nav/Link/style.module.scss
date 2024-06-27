@@ -1,14 +1,26 @@
-.link{
+.link {
     position: relative;
     display: flex;
     align-items: center;
-    
-    .indicator{
+
+    .indicator {
         width: 10px;
         height: 10px;
         background-color: white;
         border-radius: 50%;
         position: absolute;
         left: -30px;
+
+        @media screen and (max-width: 768px) {
+            width: 8px;
+            height: 8px;
+            left: -20px; // Adjust the position for smaller screens
+        }
+
+        @media screen and (max-width: 480px) {
+            width: 6px;
+            height: 6px;
+            left: -15px; // Adjust the position for very small screens
+        }
     }
 }

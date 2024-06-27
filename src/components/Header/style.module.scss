@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
-.header{
+.header {
     font-family: Lexend;
     position: absolute;
     display: flex;
@@ -13,57 +13,55 @@
     font-weight: 300;
     box-sizing: border-box;
     align-items: center;
-    
-    .logo{
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .logo {
         display: flex;
         cursor: pointer;
-        p{
+        p {
             margin: 0px;
             transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1);
         }
-        .name{
+        .name {
             display: flex;
             position: relative;
             overflow: hidden;
             white-space: nowrap;
             margin-left: 5px;
             transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1);
-            p{
+            p {
                 position: relative;
                 transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
-                &:nth-of-type(2){
+                &:nth-of-type(2) {
                     padding-left: 0.3em;
                 }
-                &:nth-of-type(3){
+                &:nth-of-type(3) {
                     position: absolute;
                     left: 120px;
                     padding-left: 0.3em;
                 }
             }
         }
-        &:hover{
-            .copyright{
+        &:hover {
+            .copyright {
                 transform: rotate(360deg);
             }
-            .name{
+            .name {
                 padding-right: 30px;
-                .RecodeBy{
+                .RecodeBy {
                     transform: translateX(-100%);
                 }
-                .rishi{
+                .rishi,
+                .lahoti {
                     transform: translateX(-85px);
                     background: linear-gradient(45deg, #dafff8 0%, #95f4ffcd 100%);
-                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeffb4', endColorstr='#ff8282',GradientType=1 );
-                    color:transparent;
-                    -webkit-background-clip: text;
-                    background-clip: text;
-                    font-weight: 600;
-                }
-                .lahoti{
-                    transform: translateX(-83px);
-                    background: linear-gradient(45deg, #dafff8 0%, #95f4ffcd 100%);
-                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeffb4', endColorstr='#ff8282',GradientType=1 );
-                    color:transparent;
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aeffb4', endColorstr='#ff8282', GradientType=1);
+                    color: transparent;
                     -webkit-background-clip: text;
                     background-clip: text;
                     font-weight: 600;
@@ -71,27 +69,27 @@
             }
         }
     }
-    .nav{
+    .nav {
         display: flex;
         align-items: center;
-        .el{
+        .el {
             display: flex;
             flex-direction: column;
             position: relative;
             z-index: 1;
             padding: 15px;
             cursor: pointer;
-            &:hover{
+            &:hover {
                 background: linear-gradient(45deg, #dafff8 0%, #95f4ff 100%);
-                color:transparent;
+                color: transparent;
                 background-clip: text;
                 font-weight: 500;
                 transition: color 0.5s ease-in-out;
-                .indicator{
+                .indicator {
                     transform: scale(1);
                 }
             }
-            .indicator{
+            .indicator {
                 position: absolute;
                 width: 5px;
                 height: 5px;
@@ -103,20 +101,20 @@
                 transition: transform 0.2s cubic-bezier(0.76, 0, 0.24, 1);
             }
         }
-        a{
+        a {
             cursor: pointer;
             font-size: large;
         }
-    } 
+    }
 }
 
-.headerButtonContainer{
+.headerButtonContainer {
     transform: scale(0);
     position: fixed;
     right: 0px;
     z-index: 4;
 
-    .button{
+    .button {
         position: relative;
         margin: 20px;
         width: 80px;
@@ -128,12 +126,12 @@
         align-items: center;
         justify-content: center;
     }
-    
-    .burger{
+
+    .burger {
         width: 100%;
         position: relative;
         z-index: 1;
-        &::after, &::before{
+        &::after, &::before {
             content: "";
             display: block;
             height: 1px;
@@ -143,41 +141,47 @@
             position: relative;
             transition: transform 0.3s;
         }
-    
-        &::after{
+
+        &::after {
             top: -5px;
         }
-    
-        &::before{
+
+        &::before {
             top: 5px;
         }
     }
-    
-    .burgerActive{
-    
-        &::after{
+
+    .burgerActive {
+        &::after {
             transform: rotate(45deg);
             top: -1px;
         }
-    
-        &::before{
+
+        &::before {
             transform: rotate(-45deg);
             top: 0px;
         }
-        
     }
 }
 
 @media screen and (max-width: 768px) {
     .header {
-        flex-direction: column; /* Stack items vertically */
-        padding: 20px; /* Adjust padding for smaller screens */
-        align-items: center; /* Align items to the start */
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
     }
-    .logo{
-        color: black;
-        &:hover{
-            padding-left: 60px;
-        }
+    .logo {
+        margin-bottom: 20px; /* Add spacing between logo and nav on small screens */
+    }
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav .el {
+        padding: 10px;
+    }
+    .headerButtonContainer {
+        right: 20px;
+        bottom: 20px;
     }
 }

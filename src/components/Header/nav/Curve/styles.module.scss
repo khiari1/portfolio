@@ -1,8 +1,18 @@
-.svgCurve{
+.svgCurve {
     position: absolute;
     top: 0;
     left: -99px;
     width: 100px;
     height: 100%;
     stroke: none;
+
+    @media screen and (max-width: 768px) {
+        left: -50px; // Ajustez la position pour les tablettes
+        width: 50px; // Ajustez la largeur pour les tablettes
+    }
+
+    @media screen and (max-width: 480px) {
+        left: -30px; // Ajustez la position pour les mobiles
+        width: 30px; // Ajustez la largeur pour les mobiles
+    }
 }

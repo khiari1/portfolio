@@ -1,5 +1,5 @@
-.menu{
-    font-family: Lexend;
+.menu {
+    font-family: 'Lexend', sans-serif;
     height: 100vh;
     background-color: rgb(41, 41, 41);
     position: fixed;
@@ -7,7 +7,8 @@
     top: 0;
     color: white;
     z-index: 3;
-    .body{
+
+    .body {
         box-sizing: border-box;
         height: 100%;
         padding: 100px;
@@ -15,14 +16,14 @@
         flex-direction: column;
         justify-content: space-between;
 
-        .nav{
+        .nav {
             display: flex;
             flex-direction: column;
             font-size: 56px;
             gap: 12px;
             margin-top: 80px;
 
-            .header{
+            .header {
                 color: rgb(153, 153, 153);
                 border-bottom: 1px solid rgb(153, 153, 153);
                 text-transform: uppercase;
@@ -30,28 +31,27 @@
                 margin-bottom: 40px;
             }
 
-            a{
+            a {
                 text-decoration: none;
                 color: white;
                 font-weight: 300;
             }
-            
         }
     }
-}
 
-.menu {
-        @media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
         width: 100%;
-        .body{
+
+        .body {
             padding: 50px;
-            .nav{
+
+            .nav {
                 font-size: 36px;
-                .header{
+
+                .header {
                     font-size: 8px;
                 }
             }
         }
-        
     }
 }
