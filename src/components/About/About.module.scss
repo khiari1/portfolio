@@ -76,7 +76,7 @@
     border-radius: 8px;
 
     @media (max-width: 1024px) {
-      max-width: 100%;
+      max-width: 200%;
     }
   }
 }
@@ -92,7 +92,7 @@
   }
 
   @media (max-width: 600px) {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -129,7 +129,7 @@
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 300px) {
     flex-direction: column;
     text-align: left;
   }
@@ -146,8 +146,8 @@
   font-size: 2rem;
 
   @media (max-width: 600px) {
-    font-size: 1.5rem;
-    padding: 0.8rem;
+    font-size: 2rem;
+    padding: 0.9rem;
   }
 }
 
@@ -164,7 +164,7 @@
     margin: 0.5rem;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 100px) {
     margin: 0.5rem 0;
   }
 }
