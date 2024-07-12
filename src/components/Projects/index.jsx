@@ -52,7 +52,7 @@ const Card = ({i, title, description, description2, description3, src, link, col
                     </a>
                   </Magnetic>
                   <Magnetic>
-                    <a href='https://drive.google.com/file/d/1IfVpT8vAdVIJ5Te1lX13CX4KBT0INhaV/view' target='_blank'>
+                    <a href='https://drive.google.com/file/d/1IfVpT8vAdVIJ5Te1lX13CX4KBT0INhaV/view?usp=sharing' target='_blank'>
                       <Image src="/images/resume.png" alt="Resume" width={30} height={30} />
                     </a>
                   </Magnetic>
