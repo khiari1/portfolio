@@ -88,6 +88,18 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
+            <div className={styles.section}>
+                <h1 className={styles.heading}>Recommendation</h1>
+                <div className={styles.recommendation}>
+                    <div className={styles.recommendation}>
+                        <a href="https://drive.google.com/file/d/1YWM6fKHaPD6zyRThI8eNS1zAIVUy1yL8/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <img src="/images/recomendation.png" alt="Recommendation from My .NET Teacher" />
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
     );
 };
