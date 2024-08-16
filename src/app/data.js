@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "Silk Road ERP",
+    description: "Development of a Commercial Management Module for an ERP",
+    description2: `Internship focused on designing an ERP application for managing invoices, delivery notes, suppliers, and services using .NET 8 with a Vertical Slice architecture, minimal API, MediatR, and Mapster.`,
+    description3: `Developing the user interface in Blazor (C#). Implementation of key entities such as Client, Supplier, Product, and Invoice. Close collaboration with the team to ensure seamless integration between the frontend and backend.`,
+    src: "Nissaf.png",  // Generic photo name
+    // link: "https://www.linkedin.com/in/yourprofile",
+    color: "#ECF8F6"
+  },
+  
+  {
     title: "Insight Miners",
     description: `Academic project in collaboration with Resolvi, aimed at leveraging data analysis to enhance strategic HR decisions.`,
     description2: `Development of a robust data warehouse for HR analysis, data integration and cleansing, and utilization of advanced data mining techniques.`,
@@ -14,7 +24,7 @@ export const projects = [
     description: `Immersion internship at TSI in Tunis, Tunisia, for migrating a desktop ERP to a modern web version.`,
     description2: `Using Microsoft SQL Server, Docker, and backend development with .NET 7. Designing user interfaces with Angular.`,
     description3: `Implementation of CQRS and MediatoR architecture for optimized management. Automating continuous deployment via Azure DevOps.`,
-    src: "software_development.png",  // Generic photo name
+    src: "TSI.png",  // Generic photo name
     // link: "https://www.linkedin.com/in/yourprofile",
     color: "#ECF8F6"
   },
