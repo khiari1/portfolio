@@ -98,6 +98,11 @@ const About = () => {
                         </a>
                     </div>
                     
+                    <div className={styles.recommendation}>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <img src="/images/reco.png" alt="Recommendation " />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
