@@ -13,10 +13,10 @@ const About = () => {
                     </div>
                     <div className={styles.aboutMeText}>
                         <p className={styles.description}>
-                            Hi 👋 , I am Khiari Aymen, I am 23 years old.
+                            Hello 👋, I'm Aymen Khiari, a 23-year-old engineering student in my final year, specializing in Business Intelligence.
                         </p>
                         <p className={styles.description}>
-                            I am a fourth-year engineer specializing in Business Intelligence 📊, passionate about .NET software development 🌐 and Angular ⚛️. I have worked on Full Stack 💻 and BI 📈 projects, creating solutions from data collection to web application implementation. My academic journey and internships have enabled me to develop technical 🛠️ and analytical 📉 expertise that I am eager to apply.
+                            With a passion for .NET development 🌍 and Angular 💻, I have experience in Full Stack and BI projects, from data collection to web application deployment. My studies and internships have sharpened my technical skills 🔧 and analytical thinking 📊, which I’m eager to apply in future projects.
                         </p>
                     </div>
                 </div>
@@ -63,6 +63,75 @@ const About = () => {
             <div className={styles.section}>
                 <h1 className={styles.heading}>Certificates</h1>
                 <div className={styles.certificates}>
+                
+                    <div className={styles.certificate}>
+                        <img src="/images/microsoft-azure.png" alt="Microsoft Azure Fundamentals Certificate" />
+                        <h3>Microsoft Azure Fundamentals AZ-900 Exam Prep</h3>
+                        <p>Issued by Microsoft via Coursera in November 2024. Description: Specialization comprising four courses:
+                        <ul>
+                            <li>Introduction to Microsoft Azure Cloud Services</li>
+                            <li>Microsoft Azure Management Tools and Security Solutions</li>
+                            <li>Microsoft Azure Services and Lifecycles</li>
+                            <li>Preparing for the AZ-900 Microsoft Azure Fundamentals Exam</li>
+                        </ul>
+                        </p>
+                    </div>
+
+                    <div className={styles.certificate}>
+                        <img src="/images/mlops-specialization.png" alt="MLOps Specialization Certificate" />
+                        <h3>MLOps | Machine Learning Operations</h3>
+                        <p>Issued by Duke University via Coursera in November 2024. Description: Specialization comprising four courses: 
+                        <ul>
+                            <li>Python Essentials for MLOps</li>
+                            <li>DevOps, DataOps, MLOps</li>
+                            <li>MLOps Platforms: Amazon SageMaker and Azure ML</li>
+                            <li>MLOps Tools: MLflow and Hugging Face</li>
+                        </ul>
+                        </p>
+                    </div>
+
+                    <div className={styles.certificate}>
+                        <img src="/images/advanced-kubernetes.png" alt="Advanced Kubernetes Certificate" />
+                         <h3>Advanced Kubernetes</h3>
+                        <p>Issued by LearnQuest via Coursera in November 2024. Description: Specialization comprising three courses:
+                        <ul>
+                         <li>Advanced Kubernetes Deployment Strategies and Networking</li>
+                            <li>Securing, Monitoring, and Scaling Kubernetes Clusters</li>
+                            <li>Kubernetes Integration and Advanced Orchestration Techniques</li>
+                        </ul>
+                        </p>
+                    </div>
+
+                    <div className={styles.certificate}>
+                        <img src="/images/nvidia-ai-anomaly.png" alt="Applications of AI for Anomaly Detection Certificate" />
+                        <h3>Applications of AI for Anomaly Detection</h3>
+                        <p>Issued by NVIDIA in October 2024. Certificate ID: i7JipiKXSBSR3H6vTaE9nw. Description: Competence in AI applications for detecting anomalies.</p>
+                    </div>
+
+                    <div className={styles.certificate}>
+                         <img src="/images/nvidia-transformer-nlp.png" alt="Building Transformer-Based NLP Applications Certificate" />
+                         <h3>Building Transformer-Based NLP Applications</h3>
+                         <p>Issued by NVIDIA in November 2024. Certificate ID: ZdEUMOEE5V-Hfh5jF-69gw. Description: Advanced NLP techniques using transformer-based architectures.</p>
+                    </div>
+
+                    <div className={styles.certificate}>
+                        <img src="/images/hubspot-ticketing-system.png" alt="HubSpot Ticketing System Certificate" />
+                        <h3>HubSpot: Working with a Ticketing System</h3>
+                        <p>Issued by Coursera Project Network in May 2024. Description: Practical project on managing and working with ticketing systems using HubSpot.</p>
+                    </div>
+
+                    <div className={styles.certificate}>
+                        <img src="/images/sap-solution.png" alt="Implementing SAP Solution Certificate" />
+                         <h3>Implementing an SAP Solution</h3>
+                        <p>Issued by SAP via Coursera in November 2024. Description: Comprehensive course on implementing solutions using SAP methodologies.</p>
+                    </div>
+
+                    <div className={styles.certificate}>
+                        <img src="/images/hubspot-crm.png" alt="Introduction to CRM with HubSpot Certificate" />
+                        <h3>Introduction to CRM with HubSpot</h3>
+                        <p>Issued by Coursera Project Network in May 2024. Description: Foundational course on CRM systems and their practical applications using HubSpot.</p>
+                    </div>
+
                     <div className={styles.certificate}>
                         <img src="/images/1.png" alt="Service-Oriented Architecture Certificate" />
                         <h3>Service-Oriented Architecture</h3>
@@ -72,7 +141,7 @@ const About = () => {
                     <div className={styles.certificate}>
                         <img src="/images/2.png" alt="HTML5 Essentials Certificate" />
                         <h3>HTML5 Essentials</h3>
-                        <p>Issued by LinkedIn in July 2022. Certificate ID: AVgTXo9FKzKurwzyuuV01J6IBHk-  Description: Fundamental concepts of HTML5.</p>
+                        <p>Issued by LinkedIn in July 2022. Certificate ID: AVgTXo9FKzKurwzyuuV01J6IBHk. Description: Fundamental concepts of HTML5.</p>
                     </div>
 
                     <div className={styles.certificate}>
@@ -100,7 +169,7 @@ const About = () => {
                     
                     <div className={styles.recommendation}>
                         <a href="" target="_blank" rel="noopener noreferrer">
-                            <img src="/images/reco.png" alt="Recommendation " />
+                            <img src="/images/reco.png" alt="Recommendation" />
                         </a>
                     </div>
                 </div>
